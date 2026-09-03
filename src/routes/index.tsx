@@ -105,7 +105,7 @@ function Header() {
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <a
           href="#home"
-          className="font-display text-base font-700 font-bold tracking-tight text-foreground"
+          className="font-display text-base font-bold tracking-tight text-foreground"
         >
           Khanyisile <span className="text-primary">Gubuza</span>
         </a>
