@@ -134,7 +134,9 @@ function Header() {
             Download CV
           </a>
           <button
-            className="inline-flex size-10 items-center justify-center rounded-lg text-foreground hover:bg-accent lg:hidden"
+            className={`inline-flex size-10 items-center justify-center rounded-lg hover:bg-accent lg:hidden ${
+              scrolled || open ? "text-foreground" : "text-navy-foreground"
+            }`}
             onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
           >
