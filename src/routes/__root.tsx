@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Khanyisile Gubuza — Aspiring AI Specialist" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Khanyisile Gubuza, aspiring AI specialist and CAPACITI ASA learner based in South Africa. Open to internships in AI and Data.",
+      },
+      { name: "author", content: "Khanyisile Gubuza" },
+      { property: "og:title", content: "Khanyisile Gubuza — Aspiring AI Specialist" },
+      {
+        property: "og:description",
+        content:
+          "Education professional transitioning into AI and Data. Projects, skills, and experience of Khanyisile Gubuza.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary" },
     ],
     links: [
       {
