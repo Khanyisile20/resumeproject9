@@ -105,9 +105,11 @@ function Header() {
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <a
           href="#home"
-          className="font-display text-base font-bold tracking-tight text-foreground"
+          className={`font-display text-base font-bold tracking-tight transition-colors ${
+            scrolled || open ? "text-foreground" : "text-navy-foreground"
+          }`}
         >
-          Khanyisile <span className="text-primary">Gubuza</span>
+          Khanyisile <span className={scrolled || open ? "text-primary" : "text-blue-glow"}>Gubuza</span>
         </a>
 
         <ul className="hidden items-center gap-1 lg:flex">
